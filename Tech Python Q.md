@@ -15,6 +15,11 @@ def countX(x):
 
 countX('4')
 ```
+by count():
+```
+word = list('1223334444444')
+print(word.count('4'))
+```
 
 
 3. Palindrome or not.
