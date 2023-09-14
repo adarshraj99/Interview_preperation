@@ -15,10 +15,19 @@ def countX(x):
 
 countX('4')
 ```
+
 by count():
 ```
 word = list('1223334444444')
 print(word.count('4'))
+```
+
+by re.findall():
+```
+import re
+word = '1223334444444'
+x= re.findall('4',word)
+print(len(x))
 ```
 
 
