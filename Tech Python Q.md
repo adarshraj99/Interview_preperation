@@ -31,6 +31,17 @@ print(len(x))
 ```
 
 
+by collections.Counter():
+```
+from collections import Counter
+import re
+word = '1223334444444'
+x = Counter(word)
+print(x)
+```
+
+
+
 3. Palindrome or not.
 4. reverse
 5. Open files (Excel,word,txt) ,read ,update. Get a text number of repetations.
