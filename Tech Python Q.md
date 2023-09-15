@@ -27,7 +27,9 @@ by re.findall():
 import re
 word = '1223334444444'
 x= re.findall('4',word)
-print(len(x))
+
+print(x) #prints all the occurances of x # o/p: ['4', '4', '4', '4', '4', '4', '4']
+print(len(x)) o/p: 7
 ```
 
 
@@ -37,6 +39,7 @@ from collections import Counter
 word = '1223334444444'
 x = Counter(word)
 print(x)
+
 o/p: Counter({'4': 7, '3': 3, '2': 2, '1': 1})
 ```
 
