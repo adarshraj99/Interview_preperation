@@ -34,7 +34,6 @@ print(len(x))
 by collections.Counter():
 ```
 from collections import Counter
-import re
 word = '1223334444444'
 x = Counter(word)
 print(x)
