@@ -38,6 +38,7 @@ import re
 word = '1223334444444'
 x = Counter(word)
 print(x)
+o/p: Counter({'4': 7, '3': 3, '2': 2, '1': 1})
 ```
 
 
